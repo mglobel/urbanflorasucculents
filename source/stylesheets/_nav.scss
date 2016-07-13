@@ -18,7 +18,7 @@ nav {
     line-height: 4rem;
     margin-bottom: 0px;
 
-    :last-child {
+    li:last-child {
       border:  2px solid black;
     }
   }

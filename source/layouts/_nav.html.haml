@@ -1,6 +1,6 @@
 %nav
   .row
-    .four.columns
+    %a.four.columns{href: '/'}
       .six.colums
         %img.u-pull-left{src: 'images/logo.png'}
       .six.columns
@@ -10,7 +10,8 @@
           Succulents
     .eight.columns
       %ul.u-pull-right
-        %li GALLERY
+        %li 
+          %a{href: '/gallery'} GALLERY
         %li CARE TIPS
         %li ABOUT
         %li Products
