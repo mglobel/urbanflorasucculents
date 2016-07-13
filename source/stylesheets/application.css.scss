@@ -28,13 +28,20 @@ footer {
   }
 
   .hero__copy {
-    padding-top: 50px;
     color: white;
-  }
 
-  .hero__button {
-    background-color: white;
-    border-radius: 0px;
+    padding-top: 50px;
+    @media (max-width: 550px) {
+      padding-top: 0px;
+      h1 {
+        line-height: 5rem;
+      }
+    }
+    
+    h3 {
+     	margin-top: 50px;
+    }
+
   }
 }
 

@@ -1,4 +1,4 @@
-$base-font-family: 'montserrat';
+$base-font-family: 'rokkitt';
 
 html {
   font-family: $base-font-family;
@@ -10,43 +10,47 @@ html {
 }
 
 @font-face {
-  font-family: 'montserrat';
-  src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-bold-webfont.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'montserrat';
-  src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-light-webfont.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'montserrat';
-  src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
-       url('../fonts/montserrat-regular-webfont.woff') format('woff');
+  font-family: 'rokkitt';
+  src: url('../fonts/rokkitt-webfont.woff2') format('woff2'),
+       url('../fonts/rokkitt-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6, form {
-  font-family: 'montserrat' sans-serif;
+  font-family: 'rokkitt';
 }
 
+h1 { 
+  font-size: 6rem; 
+  letter-spacing: 1.2rem;
+}
 h2 { font-size: 2.5rem; }
-h3 { font-size: 2rem; }
+h3 { font-size: 2.5rem; }
 
 
 @media (min-width: 550px) {
+  h1 { font-size: 8rem; }
   h2 { font-size: 2.5rem; }
-  h3 { font-size: 2rem; }
+  h3 { font-size: 2.5rem; }
 }
 
 p {
   font-size: 1.5rem;
 }
+
+button {
+  font-family: 'rokkitt';
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border-radius: 0px;
+  background-color: white;
+
+  line-height: 1.5rem;
+  box-sizing: border-box;
+
+  margin-bottom: 0px;
+  padding: 15px 30px 30px 30px;
+}
+
 
