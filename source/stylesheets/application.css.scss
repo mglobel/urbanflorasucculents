@@ -62,5 +62,19 @@ footer {
 .instagram-box {
   max-width: 900px;
   margin: 0 auto;
+}
 
+.care-tips {
+  max-width: 900px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: left;
+
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+  }
 }
